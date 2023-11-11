@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/itc-slider.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Jewelry Store</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <div class="header-row">
+        <div class="header-row__column-logo-block">
+          <div class="header-row__column-logo">
+            <a href="../homePage/index.html"><img src="img/logo/Logo.jpg" alt="" width="100px"></a>
+          </div>
+        </div>
+        <div class="header-row__column-search-block">
+          <div class="header-row__column-search">
+            <form>
+              <input class="search" name="query" type="search" placeholder="Искать здесь...">
+              <button class="button_search" type="submit"></button>
+            </form>
+          </div>
+          <div class="header-row__column-navigation-block">
+            <nav>
+              <ul>
+                <li><a href="../howToBuy/howToBuy.html">Как купить</a></li>
+                <li><a href="../dilivery/delivery.html">Доставка</a></li>
+                <li><a href="../contacts/contacts.html">Контакты</a></li>
+                <li><a href="../aboutUs/aboutUs.html">О нас</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="header-row__column-buy-block">
+          <div class="header-row__column-register">
+            <div class="header-row__column-register-button">
+              <span><a href="../shopingCart/shopingCart.html">Корзина</a></span>
+            </div>
+          </div>
+          <div class="header-row__column-buy-shopping">
+            <span><a href="../register/register.html">Вход/Регистрация</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="content">
+        <div class="itc-slider" data-slider="itc-slider" data-loop="true" data-autoplay="true" data-interval="7000">
+          <div class="itc-slider-wrapper">
+            <div class="itc-slider-items">
+              <div class="itc-slider-item">
+                <img src="img/slide1.jpg" alt="">
+              </div>
+              <div class="itc-slider-item">
+                <img src="img/3934605c-0d45-492d-ab63-b5b3e9393e39.webp" alt="">
+              </div>
+              <div class="itc-slider-item">
+                <img src="img/9a459ea2-f452-4c24-a7f1-57c75bbc4737.webp" alt="">
+              </div>
+            </div>
+          </div>
+          <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+          <button class="itc-slider-btn itc-slider-btn-prev"></button>
+          <button class="itc-slider-btn itc-slider-btn-next"></button>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <!-- Верхняя часть -->
+            <div class="card__top">
+              <!-- Изображение-ссылка товара -->
+              <a href="#" class="card__image">
+                <img src="img/card1/кольцоВолна.jpeg" alt="" />
+              </a>
+              <!-- Скидка на товар -->
+              <div class="card__label">-53%</div>
+            </div>
+            <!-- Нижняя часть -->
+            <div class="card__bottom">
+              <!-- Цены на товар (с учетом скидки и без)-->
+              <div class="card__prices">
+                <div class="card__price card__price--discount">57 460</div>
+                <div class="card__price card__price--common">133 627</div>
+              </div>
+              <!-- Ссылка-название товара -->
+              <a href="#" class="card__title">
+                Золотое кольцо "Волна"
+              </a>
+              <!-- Кнопка добавить в корзину -->
+              <button class="card__add">В корзину</button>
+            </div>
+          </div>
+          <div class="card">
+            <!-- Верхняя часть -->
+            <div class="card__top">
+              <!-- Изображение-ссылка товара -->
+              <a href="#" class="card__image">
+                <img src="img/card2/Кольцо из золота с агатами1.jpeg" alt="Кольцо из золота с агатами" />
+              </a>
+              <!-- Скидка на товар -->
+              <div class="card__label">-50%</div>
+            </div>
+            <!-- Нижняя часть -->
+            <div class="card__bottom">
+              <!-- Цены на товар (с учетом скидки и без)-->
+              <div class="card__prices">
+                <div class="card__price card__price--discount">26 668</div>
+                <div class="card__price card__price--common">53 337</div>
+              </div>
+              <!-- Ссылка-название товара -->
+              <a href="#" class="card__title">
+                Кольцо из золота с агатами
+              </a>
+              <!-- Кнопка добавить в корзину -->
+              <button class="card__add">В корзину</button>
+            </div>
+          </div>
+          <div class="card">
+            <!-- Верхняя часть -->
+            <div class="card__top">
+              <!-- Изображение-ссылка товара -->
+              <a href="#" class="card__image">
+                <img src="img/card3/Золотые серги Геометрия1.jpeg" alt="Золотые серги Геометрия" />
+              </a>
+              <!-- Скидка на товар -->
+              <div class="card__label">-65%</div>
+            </div>
+            <!-- Нижняя часть -->
+            <div class="card__bottom">
+              <!-- Цены на товар (с учетом скидки и без)-->
+              <div class="card__prices">
+                <div class="card__price card__price--discount">31 281</div>
+                <div class="card__price card__price--common">89 375</div>
+              </div>
+              <!-- Ссылка-название товара -->
+              <a href="#" class="card__title">
+                Золотые серги Геометрия
+              </a>
+              <!-- Кнопка добавить в корзину -->
+              <button class="card__add">В корзину</button>
+            </div>
+          </div>
+          <div class="card">
+            <!-- Верхняя часть -->
+            <div class="card__top">
+              <!-- Изображение-ссылка товара -->
+              <a href="#" class="card__image">
+                <img src="img/card4/Серьги из золота с бриллиантами и рубинами1.jpeg"
+                  alt="Серьги из золота с бриллиантами и рубинами" />
+              </a>
+              <!-- Скидка на товар -->
+              <div class="card__label">-64%</div>
+            </div>
+            <!-- Нижняя часть -->
+            <div class="card__bottom">
+              <!-- Цены на товар (с учетом скидки и без)-->
+              <div class="card__prices">
+                <div class="card__price card__price--discount">98 003</div>
+                <div class="card__price card__price--common">272 230</div>
+              </div>
+              <!-- Ссылка-название товара -->
+              <a href="#" class="card__title">
+                Серьги из золота с бриллиантами и рубинами
+              </a>
+              <!-- Кнопка добавить в корзину -->
+              <button class="card__add">В корзину</button>
+            </div>
+          </div>
+          <div class="card">
+            <!-- Верхняя часть -->
+            <div class="card__top">
+              <!-- Изображение-ссылка товара -->
+              <a href="#" class="card__image">
+                <img src="img/card5/Серьги из золота с брилиантами1.jpeg" alt="Серьги из золота с брилиантами" />
+              </a>
+              <!-- Скидка на товар -->
+              <div class="card__label">-64%</div>
+            </div>
+            <!-- Нижняя часть -->
+            <div class="card__bottom">
+              <!-- Цены на товар (с учетом скидки и без)-->
+              <div class="card__prices">
+                <div class="card__price card__price--discount">143 068</div>
+                <div class="card__price card__price--common">397 410</div>
+              </div>
+              <!-- Ссылка-название товара -->
+              <a href="#" class="card__title">
+                Серги из золота с брилиантами
+              </a>
+              <!-- Кнопка добавить в корзину -->
+              <button class="card__add">В корзину</button>
+            </div>
+          </div>
+          <div class="card">
+            <!-- Верхняя часть -->
+            <div class="card__top">
+              <!-- Изображение-ссылка товара -->
+              <a href="#" class="card__image">
+                <img src="img/card6/Серьги из золота с брилиантами и изумрудами1.jpeg"
+                  alt="Серьги из золота с брилиантами" />
+              </a>
+              <!-- Скидка на товар -->
+              <div class="card__label">-64%</div>
+            </div>
+            <!-- Нижняя часть -->
+            <div class="card__bottom">
+              <!-- Цены на товар (с учетом скидки и без)-->
+              <div class="card__prices">
+                <div class="card__price card__price--discount">71 011</div>
+                <div class="card__price card__price--common">197 252</div>
+              </div>
+              <!-- Ссылка-название товара -->
+              <a href="#" class="card__title">
+                Серьги из золота с брилиантами
+              </a>
+              <!-- Кнопка добавить в корзину -->
+              <button class="card__add">В корзину</button>
+            </div>
+          </div>
+          <div class="card">
+            <!-- Верхняя часть -->
+            <div class="card__top">
+              <!-- Изображение-ссылка товара -->
+              <a href="#" class="card__image">
+                <img src="img/card7/Серьги из золота с изумруда и бриллиантами1.jpeg"
+                  alt="Серьги из золота с изумрудом и бриллиантами" />
+              </a>
+              <!-- Скидка на товар -->
+              <div class="card__label">-64%</div>
+            </div>
+            <!-- Нижняя часть -->
+            <div class="card__bottom">
+              <!-- Цены на товар (с учетом скидки и без)-->
+              <div class="card__prices">
+                <div class="card__price card__price--discount">78 449</div>
+                <div class="card__price card__price--common">217 913</div>
+              </div>
+              <!-- Ссылка-название товара -->
+              <a href="#" class="card__title">
+                Серьги из золота с изумрудом и бриллиантами
+              </a>
+              <!-- Кнопка добавить в корзину -->
+              <button class="card__add">В корзину</button>
+            </div>
+          </div>
+          <div class="card">
+            <!-- Верхняя часть -->
+            <div class="card__top">
+              <!-- Изображение-ссылка товара -->
+              <a href="#" class="card__image">
+                <img src="img/card8/Женский золотой браслет с фианитами1.jpeg"
+                  alt="Женский золотой браслет с фианитами" />
+              </a>
+              <!-- Скидка на товар -->
+              <div class="card__label">-64%</div>
+            </div>
+            <!-- Нижняя часть -->
+            <div class="card__bottom">
+              <!-- Цены на товар (с учетом скидки и без)-->
+              <div class="card__prices">
+                <div class="card__price card__price--discount">78 273</div>
+                <div class="card__price card__price--common">217 425</div>
+              </div>
+              <!-- Ссылка-название товара -->
+              <a href="#" class="card__title">
+                Женский золотой браслет с фианитами
+              </a>
+              <!-- Кнопка добавить в корзину -->
+              <button class="card__add">В корзину</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class='footer__container container'>
+        <div class="footer__row">
+
+          <!-- Первая колонка -->
+          <div class="footer__main">
+            <h2>Ювелирный магазин</h2>
+            <span>Контакты</span><br><br>
+            <span>Номер телефона: +7-999-999-9888</span><br><br>
+            <p>Электронная почта: adminHelp@mail.ru</p>
+          </div>
+
+          <!-- Остальные колонки -->
+          <!-- Вторая -->
+          <div class="footer__column footer__column_1">
+            <div class="footer__title"><span>Соц. сети</span></div>
+            <a target="_blank" href="https://www.facebook.com/" class="footer__link">FaceBook</a>
+            <a target="_blank" href="https://www.instagram.com" class="footer__link">Instagram</a>
+
+          </div>
+
+          <!-- Третья -->
+          <div class="footer__column footer__column_2">
+            <div class="footer__title">
+              <div class="footer__title"><span>Полезные ссылки</span></div>
+              <ul>
+                <li><a class="footer__link" href="../howToBuy/howToBuy.html">Как купить</a></li>
+                <li><a class="footer__link" href="../dilivery/delivery.html">Доставка</a></li>
+                <li><a class="footer__link" href="../contacts/contacts.html">Контакты</a></li>
+                <li><a class="footer__link" href="../aboutUs/aboutUs.html">О нас</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Последняя -->
+          <!-- <div class="footer__column footer__column_3">
+            <div class="footer__title">
+              <span>Защита данных</span>
+            </div>
+            <ul>
+              <li><a class="footer__link" href="#">Политика конфиденциальности</a></li>
+              <li><a class="footer__link" href="#">Обработка персональных данных</a></li>
+            </ul>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <script src="js/itc-slider.js"></script>
+</body>
+
+</html>
